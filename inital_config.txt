@@ -46,14 +46,24 @@ pip3 install --user neovim
 sudo apt-get install vim
 ln -s ~/.vim ~/.config/nvim
 ln -s ~/.vimrc ~/.config/nvim/init.vim
-CREATE ~/.vimrc.
-****************************
+
+If autoload folder not exist, reinstall Plugin
+
+ @@@@@@ might need to CREATE ~/.vimrc.@@@@@
+
+
+----------------------------------------------------------
+for file .vimrc
+
+syntax on
 call plug#begin()
 Plug 'roxma/nvim-completion-manager'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'morhetz/gruvbox'
 call plug#end()
-*****************************
+
+set background =dark
+colorscheme gruvbox
 
 
