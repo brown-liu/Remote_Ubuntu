@@ -1,0 +1,5 @@
+got to miniconda
+Miniconda3 Linux 64-bit copy link
+
+wget url
+bash Miniconda3 Linux 64-bit
