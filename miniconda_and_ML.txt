@@ -3,3 +3,15 @@ Miniconda3 Linux 64-bit copy link
 
 wget url
 bash Miniconda3 Linux 64-bit
+
+bash
+brownliuinnz/gluon-tutorials
+conda env create -f environment.yml
+
+uninstall pip3
+sudo apt-get --purge autoremove python3-pip
+
+source activate gluon
+sudo apt install screen
+
+ssh -L8808:localhost:8888 brown@192.168.1.114
