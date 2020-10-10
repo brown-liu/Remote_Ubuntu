@@ -1,4 +1,4 @@
-Install Ubuntu 
+<h1>Install Ubuntu</h1> 
 Terminal on Ubuntu to run following cmd:
 
 sudo apt update
@@ -18,7 +18,7 @@ sudo apt install git-all
 sudo apt install python3-venv
 
 sudo apt install vim
-###########################################    NVIM   ############################################
+<h1>NVIM</h1>   
 Install the NeoVim AppimagePermalink
 Download and install the appimage, use the output-document option to rename it to nvim:
 
@@ -37,11 +37,11 @@ mkdir -p .config/nvim
 
 sudo apt install curl
 
-##########################################  PLUGIN   INSTALL   ###########################################
+# PLUGIN   INSTALL
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 
-########################################## python support ##############################################
+# python support
 pip3 install --user neovim
 sudo apt-get install vim
 ln -s ~/.vim ~/.config/nvim
